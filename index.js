@@ -77,15 +77,16 @@ const questions = [
         message: 'What is your email address?'
       }
     ]
+   
     import { renderLicenseBadge, renderLicenseLink } from './generateMarkdown.js';
-
 
 
     function generateREADME(answers) {
         return `
     # ${answers.project_name}
 
-      ![License](${answers.license})
+
+    ${licenseBadge}
     
     ## Description
     ${answers.description}
@@ -104,7 +105,7 @@ const questions = [
     ${answers.usage}
 
     ## License
-    This project is licensed under the ${answers.license} license.
+    This project is licensed under the ${licenseNotice} license.
     
     ## Contributing
     ${answers.contribution}
