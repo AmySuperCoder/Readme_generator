@@ -1,32 +1,32 @@
 
-    # sfsd
+# Amy's Awesome Pixie Dust Generator
 
-    ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-      ![License](MIT)
+![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue)
     
-    ## Description
-    hjkk
+## Description
+It sprinkles pixie dust on apps created by struggling bootcamp students.
 
-    ### Table of Contents
-    1. [Installation Instructions](#installation)
-    2. [Usage](#usage)
-    3. [Contributing](#contributing)
-    4. [License](#license)
+### Table of Contents
+1. [Installation Instructions](#installation)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
 
     
-    ## Installation
-    hjklj;
+## Installation
+Install inquirer and click your heals together three times.
     
-    ## Usage
-    vjyhgjk
+## Usage
+Answer the questions at the prompts.
 
-    ## License
-    This project is licensed under the MIT license.
+## License
+This project is licensed under the Apache 2.0 license. Click here https://opensource.org/licenses/Apache-2.0 for more information.
     
-    ## Contributing
-    ftyhftu
+## Contributing
+Capture a fairy for additional pixie dust.
     
-    ## Questions
-    To contact me, visit yikh or email me at hghjh.  
+## Questions
+
+To contact me, visit https://github.com/AmySuperCoder/Readme_generator or email me at tribegriffith@gmail.com.  
     

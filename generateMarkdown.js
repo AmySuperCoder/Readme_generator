@@ -10,8 +10,7 @@ function renderLicenseBadge(license) {
       'MIT': '![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)',
       'Apache 2.0': '![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue)',
       'GPL 3.0': '![GPL 3.0 License](https://img.shields.io/badge/license-GPL%203.0-orange)',
-      'BSD 3': '![BSD 3 License](https://img.shields.io/badge/license-BSD%203-lightblue)',
-      // Add more licenses as needed
+      
   };
   return badges[license] || '';
 }
@@ -61,9 +60,6 @@ function generateLicenseSection(license) {
           break;
   }}
 
-
-
-/*
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -71,5 +67,4 @@ function generateMarkdown(data) {
 `;
 }
 
-export default generateMarkdown;*/
-
+export {renderLicenseBadge, renderLicenseLink}

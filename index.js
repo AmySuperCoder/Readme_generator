@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import { renderLicenseBadge, renderLicenseLink } from './generateMarkdown.js';
+
 
 /*// TODO: Create an array of questions for user input
 const questions = [];
@@ -78,40 +80,40 @@ const questions = [
       }
     ]
    
-    import { renderLicenseBadge, renderLicenseLink } from './generateMarkdown.js';
 
 
     function generateREADME(answers) {
         return `
-    # ${answers.project_name}
+# ${answers.project_name}
 
 
-    ${licenseBadge}
+${renderLicenseBadge(answers.license)}
     
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ### Table of Contents
-    1. [Installation Instructions](#installation)
-    2. [Usage](#usage)
-    3. [Contributing](#contributing)
-    4. [License](#license)
+### Table of Contents
+1. [Installation Instructions](#installation)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
 
     
-    ## Installation
-    ${answers.installation}
+## Installation
+${answers.installation}
     
-    ## Usage
-    ${answers.usage}
+## Usage
+${answers.usage}
 
-    ## License
-    This project is licensed under the ${licenseNotice} license.
+## License
+This project is licensed under the ${answers.license} license. Click ${renderLicenseLink(answers.license)} for more information.
     
-    ## Contributing
-    ${answers.contribution}
+## Contributing
+${answers.contribution}
     
-    ## Questions
-    To contact me, visit ${answers.github} or email me at ${answers.email}.  
+## Questions
+
+To contact me, visit ${answers.github} or email me at ${answers.email}.  
     `;
     }
     
