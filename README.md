@@ -1,11 +1,11 @@
 
-# Amy's Awesome Pixie Dust Generator
+# Readme Generator
 
 
 ![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue)
     
 ## Description
-It sprinkles pixie dust on apps created by struggling bootcamp students.
+It generates a professional-looking readme file with information entered by the user at the command prompt.
 
 ### Table of Contents
 1. [Installation Instructions](#installation)
@@ -15,18 +15,18 @@ It sprinkles pixie dust on apps created by struggling bootcamp students.
 
     
 ## Installation
-Install inquirer and click your heals together three times.
+Type node index.js
     
 ## Usage
-Answer the questions at the prompts.
+Answer the questions given at the command prompt. Press Enter to skip any questions.
 
 ## License
-This project is licensed under the Apache 2.0 license. Click here https://opensource.org/licenses/Apache-2.0 for more information.
+This project is licensed under the Apache 2.0 license. Click https://opensource.org/licenses/Apache-2.0 for more information.
     
 ## Contributing
-Capture a fairy for additional pixie dust.
+Contact me with the information at the bottom.
     
 ## Questions
 
-To contact me, visit https://github.com/AmySuperCoder/Readme_generator or email me at tribegriffith@gmail.com.  
+To contact me, visit https://github.com/AmySuperCoder or email me at tribegriffith@gmail.com.  
     
