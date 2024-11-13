@@ -1,11 +1,11 @@
 
-# Readme Generator
+# README Generator
 
 
-![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue)
+![MIT License](https://img.shields.io/badge/license-MIT-brightgreen)
     
 ## Description
-It generates a professional-looking readme file with information entered by the user at the command prompt.
+Generates a professional-looking README file with information entered at a command line prompt.
 
 ### Table of Contents
 1. [Installation Instructions](#installation)
@@ -15,16 +15,16 @@ It generates a professional-looking readme file with information entered by the 
 
     
 ## Installation
-Type node index.js
+No installation is necessary. Just copy the repo from github, and then type node index.js to launch.
     
 ## Usage
-Answer the questions given at the command prompt. Press Enter to skip any questions.
+Answer the questions given at the command line. Press ENTER to leave any sections blank.
 
 ## License
-This project is licensed under the Apache 2.0 license. Click https://opensource.org/licenses/Apache-2.0 for more information.
+This project is licensed under the MIT license. Click https://opensource.org/licenses/MIT for more information.
     
 ## Contributing
-Contact me with the information at the bottom.
+Contact me with the information at the bottom of this file.
     
 ## Questions
 
